@@ -1,3 +1,4 @@
+### dns.malw.link: hosts file
 # Дополнение к zapret:
 157.240.245.174 instagram.com
 157.240.245.174 www.instagram.com
@@ -8,6 +9,7 @@
 3.66.189.153 mail.proton.me
 64.233.164.198 yt3.ggpht.com
 52.223.13.41 tracker.openbittorrent.com
+130.255.77.28 ntc.party
 
 # ChatGPT, OpenAI:
 204.12.192.222 chatgpt.com
@@ -25,7 +27,6 @@
 204.12.192.221 operator.chatgpt.com
 204.12.192.222 sora.chatgpt.com
 204.12.192.222 sora.com
-204.12.192.222 sora.chatgpt.com
 204.12.192.222 videos.openai.com
 
 # Сервисы Google:
@@ -135,7 +136,7 @@
 204.12.192.222 write-free.www.deepl.com
 204.12.192.222 experimentation.deepl.com
 204.12.192.222 experimentation-grpc.deepl.com
-204.12.192.222 ita-free.app.deepl.cpm
+204.12.192.222 ita-free.app.deepl.com
 204.12.192.222 shield.deepl.com
 204.12.192.222 ott.deepl.com
 204.12.192.222 api-free.deepl.com
@@ -162,17 +163,6 @@
 204.12.192.219 fitbit-pa.googleapis.com
 204.12.192.219 fitbitvestibuleshim-pa.googleapis.com
 204.12.192.219 fitbit.google.com
-
-# 4PDA
-185.246.223.127 4pda.to
-185.246.223.127 app.4pda.to
-185.246.223.127 s.4pda.to
-185.246.223.127 appbk.4pda.to
-45.81.252.72 cs11a0a.4pda.ws
-185.234.59.26 cs7f6c.4pda.ws
-217.182.194.171 cs4a0d.4pda.ws
-141.94.143.110 cs3b2e.4pda.ws
-54.36.104.75 cs2c9f.4pda.ws
 
 # Другое:
 204.12.192.222 claude.ai
@@ -221,3 +211,15 @@
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 mc.yandex.ru
 0.0.0.0 amc.yandex.ru
+### dns.malw.link: end hosts file
+
+# 4PDA
+185.246.223.127 4pda.to
+185.246.223.127 app.4pda.to
+185.246.223.127 s.4pda.to
+185.246.223.127 appbk.4pda.to
+45.81.252.72 cs11a0a.4pda.ws
+185.234.59.26 cs7f6c.4pda.ws
+217.182.194.171 cs4a0d.4pda.ws
+141.94.143.110 cs3b2e.4pda.ws
+54.36.104.75 cs2c9f.4pda.ws
