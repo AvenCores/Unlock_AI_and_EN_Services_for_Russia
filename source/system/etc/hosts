@@ -1,4 +1,5 @@
 ### dns.malw.link: hosts file
+# Последнее обновление: 20 сентября 2025
 # Дополнение к zapret:
 157.240.245.174 instagram.com
 157.240.245.174 www.instagram.com
@@ -116,7 +117,7 @@
 18.172.112.81 security.id.supercell.com
 45.95.233.23 accounts.supercell.com
 18.66.195.96 game-assets.clashroyaleapp.com
-51.158.190.98 game.clashroyaleapp.com
+179.43.148.190 game.clashroyaleapp.com
 3.162.38.39 game-assets.clashofclans.com
 70.34.251.56 gamea.clashofclans.com
 108.157.194.81 clashofclans.inbox.supercell.com
@@ -143,6 +144,8 @@
 204.12.192.222 backend.deepl.com
 204.12.192.222 clearance.deepl.com
 204.12.192.222 errortracking.deepl.com
+204.12.192.222 auth.deepl.com
+204.12.192.222 oneshot-free.www.deepl.com
 
 # Deezer
 204.12.192.220 deezer.com
@@ -164,9 +167,13 @@
 204.12.192.219 fitbitvestibuleshim-pa.googleapis.com
 204.12.192.219 fitbit.google.com
 
-# Другое:
+# Claude
 204.12.192.222 claude.ai
-204.12.192.220 console.anthropic.com
+185.246.223.127 console.anthropic.com
+185.246.223.127 auth.anthropic.com
+185.246.223.127 api.anthropic.com
+
+# Другое:
 204.12.192.222 www.notion.so
 50.7.85.222 www.canva.com
 204.12.192.222 www.intel.com
@@ -181,6 +188,8 @@
 45.95.233.23 www.dyson.fr
 45.95.233.23 usher.ttvnw.net
 64.188.98.242 api.manus.im
+185.246.223.127 profile.broadcom.com
+45.95.233.23 test.dns.malw.link
 
 # Блокировка реально плохих сайтов
 # Скримеры:

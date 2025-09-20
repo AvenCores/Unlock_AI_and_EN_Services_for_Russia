@@ -106,7 +106,7 @@
 * GitHub (API & Copilot) • JetBrains (Datalore, Plugins, CDN) • Google AI API • NVIDIA Dev • Parsec • Manus API
 
 ### 🛠 Продуктивность
-* Notion • Canva • Intel • Dell • Weather.com • Imgur • Web Archive • Tria.ge
+* Notion • Canva • Intel • Broadcom • Dell • Weather.com • Imgur • Web Archive • Tria.ge
 
 ### ⌚️ Здоровье
 * Fitbit
@@ -115,7 +115,7 @@
 * Square / Squareup (via Tidal)
 
 ### 🚫 Блокировка вредных сайтов
-* Скримеры: `only-fans.*`, `onlyfans.wtf`
+* Скримеры: `only-fans.*`, `onlyfans.wtf` и др.
 * IP-логгеры: `iplogger.org`, `grabify.org` и др.
 
 > Полный список доменов смотрите в [`hosts`](./source/system/etc/hosts).
