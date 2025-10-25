@@ -1,5 +1,5 @@
 ### dns.malw.link: hosts file
-# Последнее обновление: 15 октября 2025
+# Последнее обновление: 21 октября 2025
 # Дополнение к zapret:
 157.240.245.174 instagram.com
 157.240.245.174 www.instagram.com
@@ -33,6 +33,7 @@
 185.246.223.127 sora.chatgpt.com
 185.246.223.127 sora.com
 185.246.223.127 videos.openai.com
+185.246.223.127 ios.chat.openai.com
 
 # Сервисы Google:
 185.246.223.127 gemini.google.com
@@ -85,6 +86,8 @@
 50.7.85.221 datalore.jetbrains.com
 107.150.34.100 plugins.jetbrains.com
 185.246.223.127 download.jetbrains.com
+185.246.223.127 api.jetbrains.ai
+185.246.223.127 account.jetbrains.com
 
 # ElevenLabs:
 185.246.223.127 elevenlabs.io
