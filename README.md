@@ -88,7 +88,7 @@
 Список формируется на основе содержимого [`system/etc/hosts`](./source/system/etc/hosts) и регулярно пополняется. Краткий обзор:
 
 ### 📱 Социальные сети и мессенджеры
-* Instagram • TikTok • Truth Social • Guilded • 4PDA
+* Instagram • TikTok • Truth Social • Guilded
 
 ### 🧠 ИИ-сервисы
 * ChatGPT / OpenAI (включая Sora) • Claude • Grok • Gemini • Google AI Studio / NotebookLM / Labs • Microsoft Copilot • GitHub Copilot • ElevenLabs • DeepL
