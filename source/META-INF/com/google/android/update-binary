@@ -2,7 +2,7 @@
 # shellcheck shell=sh
 
 umask 022
-set -eu
+set -u
 
 # ────────── Константы ──────────
 MIN_MAGISK_VER=20400
@@ -59,7 +59,9 @@ trap 'abort "Произошла ошибка во время установки"
 detect_root_env() {
   # Magisk (основной путь API установки модулей)
   if [ -f /data/adb/magisk/util_functions.sh ]; then
-    . /data/adb/magisk/util_functions.sh
+    # || true предотвратит вылет, если внутри source произойдет ошибка
+    . /data/adb/magisk/util_functions.sh || true 
+    
     if [ "${MAGISK_VER_CODE:-0}" -lt "$MIN_MAGISK_VER" ]; then
       abort "Пожалуйста, установите Magisk v20.4+!"
     fi
