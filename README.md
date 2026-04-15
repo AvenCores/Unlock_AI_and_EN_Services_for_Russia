@@ -13,9 +13,7 @@
     </a>
 </div>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a7333079-3bd3-405e-9a9e-c1f63191c1cf" width="80%"/>
-</p>
+![maxresdefault](https://github.com/user-attachments/assets/a7333079-3bd3-405e-9a9e-c1f63191c1cf)
 
 <p align="center">
   <!-- Бейдж лицензии -->
