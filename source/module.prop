@@ -1,7 +1,7 @@
 id=unlockallaiandservicesforrussia
 name=Unlock AI and EN Services for Russia
-version=1.4.8
-versionCode=148
+version=1.4.9
+versionCode=149
 author=avencores
 description=🛡 Модуль для разблокировки зарубежных сервисов AI и других для России 🌍
 updateJson=https://raw.githubusercontent.com/AvenCores/Unlock_AI_and_EN_Services_for_Russia/refs/heads/main/update.json
