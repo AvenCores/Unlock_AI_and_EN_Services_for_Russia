@@ -86,32 +86,76 @@
 > **Важно:** модуль не обходит прямые блокировки РКН на сетевом уровне. Если конкретный сервис заблокирован РКН по IP / SNI / TLS или иным способом, без дополнительных средств (VPN, прокси, zapret, byebyedpi и т.п.) он работать не будет.
 
 ### 📱 Социальные сети и медиа
-* Instagram • TikTok • Truth Social • Twitch • Patreon
+* Instagram (включая CDN и E2EE чаты) • TikTok • Truth Social • Twitch • Patreon
 
 ### 🧠 ИИ и ассистенты
-* ChatGPT / OpenAI (включая Sora и Operator) • Claude • Grok • Gemini • Google AI Studio • Google AI API • NotebookLM • Jules • Stitch • Microsoft Copilot • GitHub Copilot • JetBrains AI • ElevenLabs • DeepL • Trae • Windsurf • Manus
+* **OpenAI:** ChatGPT, Sora, Operator, API, CDN (oaistatic, oaiusercontent)
+* **Anthropic:** Claude (API, Console)
+* **X.AI:** Grok
+* **Google:** Gemini, AI Studio, Generative Language API, NotebookLM, Jules, Stitch, AI Test Kitchen
+* **Microsoft:** Copilot, Bing (Sydney, Edge Services)
+* **Разработка:** GitHub Copilot, JetBrains AI, Codeium (Windsurf), Trae.ai, Manus
+* **Инструменты:** ElevenLabs (API, Reader), DeepL (API, Write, Voice)
 
 ### 🎮 Игры и гейминг
-* Clash Royale • Clash of Clans • Brawl Stars • Squad Busters • mo.co • Xbox (+ Cloud Gaming) • Supercell ID / Store • Microsoft Rewards • Parsec
+* **Supercell:** Clash Royale, Clash of Clans, Brawl Stars, Squad Busters, mo.co, Supercell ID / Store
+* **Microsoft / Xbox:** Xbox Auth, Xbox Cloud Gaming (xGPU) • Microsoft Rewards
+* **Другое:** Parsec (Cloud Gaming) • OpenBitTorrent (Tracker)
 
 ### 🎵 Музыка
-* Spotify • Tidal • Deezer
+* Spotify (включая API, Dealer, CDN) • Tidal • Deezer
 
 ### 🧩 Разработка и создание контента
-* GitHub API • JetBrains (Datalore, Plugins, загрузки) • Linear • Canva • Framer • Autodesk • NVIDIA Developer • Guided Hacking • Tria.ge
+* GitHub API • JetBrains (Datalore, Plugins, Downloads, Account) • Linear • Canva • Framer • Autodesk • NVIDIA Developer • Guided Hacking • Tria.ge (Malware Analysis)
 
 ### ☁️ Сервисы и веб-платформы
-* Tailscale • Notion • Weather.com • Internet Archive • Qwant • Imgur • Intel • Dell • Broadcom • Elgato • Dyson • Rutor • ntc.party
+* Tailscale • Notion • Weather.com • Internet Archive • Qwant • Imgur • Intel • Dell • Broadcom • Elgato • Dyson • Rutor • ntc.party • OneTrust (Geolocation/Consent)
 
 ### ⌚️ Здоровье
-* Fitbit
+* Fitbit (Google)
 
 ### 💳 Платежи и финтех
 * Square / Squareup • Pump.fun
 
-### 🚫 Блокировка вредных сайтов
-* Скримеры: `only-fans.*`, `onlyfans.wtf` и др.
-* IP-логгеры: `iplogger.org`, `grabify.org` и др.
+---
+
+## 🚫 Блокировка угроз, рекламы и скама (Правила `0.0.0.0`)
+Огромный массив доменов перенаправляется на `0.0.0.0` для защиты пользователя. Вот основные категории блокируемых угроз:
+
+### 🛑 Рекламные сети, аналитика и трекеры
+* **Мобильная и веб-аналитика:** Appsflyer, Adjust, Branch, Swrve, Amplitude, Mixpanel, CleverTap, Airship.
+* **Рекламные биржи и сети:** Criteo, Taboola, Outbrain, AdColony, DoubleClick, Unity Ads, IronSource, Vungle.
+* **Телеметрия:** Сборщики данных смарт-ТВ, браузеров и мобильных приложений.
+
+### 🕵️ IP-логгеры и деанонимизаторы
+* Сервисы для скрытого перехвата IP-адреса и сбора данных: `iplogger.*`, `grabify.*`, `blasze.tk`, `gyazo.*` и тысячи их зеркал.
+
+### 💀 Скримеры и шок-контент
+* Классические шок-сайты и треш-контент: `2girls1cup.ws`, `1man1jar.org`, `goatse.*`, `tubgirl.*`, `lemonparty.org`, `meatspin` и т.д.
+
+### 💸 Массовый крипто-скам и фейковые ИИ-трейдеры
+* **Фальшивые платформы:** Блокируются **сотни** доменов, маскирующихся под легальные инвестиции и ИИ-трейдинг.
+* **Паттерны скама:** `immediate-*`, `bitcoin-*`, `quantum-*`, `yuan-*`, `oil-profit`, `trade-*`, `bit-*`, `crypto-*` (например, *Immediate Edge, Quantum AI, Yuan Pay Group, Bitcoin Code, Oil Zero*).
+
+### 🎣 Фишинг и поддельные панели входа
+* **Корпоративный фишинг:** Фейковые страницы авторизации Webmail, Zimbra, cPanel, Outlook.
+* **Соцсети:** Клонированные страницы входа Facebook, Instagram, TikTok.
+* **Мошеннические ссылки:** Поддельные уведомления о доставке (Colissimo, DHL), "проверках безопасности" и компрометации аккаунтов.
+
+### 🛒 Скам-маркетплейсы и фейковые магазины
+* **Платформы объявлений:** Фишинговые зеркала Vinted, OLX, Allegro, eBay.
+* **Бронирования:** Фейковые копии Booking, Airbnb (ссылки на "верификацию" и "возврат средств").
+* **Фейковые бренды:** Магазины-клон, продающие контрафакт или крадущие данные карт (PEPCO, Super-Pharm, Wittchen, Ochnik, Nike, Skechers, Jysk, Thursday Boots).
+
+### 🏴‍☠️ Опасные пиратские стриминги
+* Зараженные и фишинговые сайты "бесплатного" кино и сериалов: `zalukaj`, `cda-vod`, `filman`, `efilmy`, `vodplay`, `ekino`, `kinoman` и сотни связанных с ними поддоменов-сателлитов.
+
+### 🎰 Онлайн-казино, ставки и фейковые "раздачи"
+* Vulkan Vegas, Ice Casino, GGBet, National Casino и тысячи их партнерских "зеркал".
+* Фейковые опросы, "выигрыши" iPhone/Samsung, генераторы кодов и сайты из серии "заработок в сети".
+
+### 🦠 Вредоносное ПО (Malware) и Adware
+* Фейковые антивирусы, "очистители реестра" (Registry Cleaners), пиратский софт с троянами, загрузчики майнеров (CoinHive и аналоги) и рекламное ПО (Adware).
 
 > Полный список доменов смотрите в [`hosts`](./source/system/etc/hosts).
 
